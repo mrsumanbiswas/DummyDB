@@ -1,4 +1,4 @@
-import { anthropic } from '@ai-sdk/anthropic';
+import { google } from '@ai-sdk/google';
 import { streamText } from "ai";
 import { displayResults } from "./tools/displayResults";
 import { queryDatabase } from "./tools/queryDatabase";
@@ -35,7 +35,9 @@ export async function POST(req: Request) {
     };
 
     const result = streamText({
-      model: anthropic("claude-3-5-sonnet-latest"),
+      model: google(process.env.GEMINI_MODEL_NAME || "gemini-2.0-flash", {
+        apiKey: process.env.GEMINI_AI || "",
+      }),
       messages,
       toolCallStreaming: true,
       tools,
