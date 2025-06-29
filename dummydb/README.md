@@ -19,7 +19,7 @@ To use the web interface, these requisites must be met:
 **1. Clone the repository to a directory on your pc via command prompt:**
 
 ```
-git clone https://github.com/toukoum/datai/
+git clone https://github.com/toukoum/dummydb/
 ```
 
 **2. Open the folder:**
