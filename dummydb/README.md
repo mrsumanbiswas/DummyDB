@@ -25,7 +25,7 @@ git clone https://github.com/sumanbiswas/Extendify/dummydb/
 **2. Open the folder:**
 
 ```
-cd datai
+cd dummydb
 ```
 
 **3. Rename the `.example.env` to `.env`:**
