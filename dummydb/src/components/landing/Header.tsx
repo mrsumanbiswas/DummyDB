@@ -34,7 +34,7 @@ const Header = () => {
 								className="w-6 h-6"
 							/>
 							<h1 className="text-sm font-bold text-foreground">
-								DummyDB <span className="text-muted-foreground font-light ml-2">Tinkerers</span>
+								DummyDB <span className="text-muted-foreground font-light ml-2">HexaFlls</span>
 							</h1>
 						</div>
 					</a>
