@@ -1,12 +1,12 @@
 <h1 align="center">
-DATAI - Hackathon AI Tinkerers 2025
+DUMMYDB - Hackathon AI HEXAFALLS 2025
 </h1>
 
 ## About this project
-**DATAI** is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic’s Claude API, this project focuses on simplicity, speed, and user-friendly design. Just ask a question like *“Who were my top customers last month?”* and DATAI will generate and execute the SQL query behind the scenes, returning accurate, clear results in real time.
+****DummyDB is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic’s Claude API, this project focuses on simplicity, speed, and user-friendly design. Just ask a question like *“Who were my top customers last month?”* and DATAI will generate and execute the SQL query behind the scenes, returning accurate, clear results in real time.
 
 ## Demo video
-[![See the demo on YouTube](https://img.youtube.com/vi/iE0RXjdbQsw/0.jpg)](https://youtu.be/iE0RXjdbQsw)
+[![See the demo on YouTube](https://img.youtube.com/vi/iE0RXjdbQsw/0.jpg)](https://youtu.be/)
 
 ## Requisites ⚙️
 To use the web interface, these requisites must be met:
@@ -19,7 +19,7 @@ To use the web interface, these requisites must be met:
 **1. Clone the repository to a directory on your pc via command prompt:**
 
 ```
-git clone https://github.com/toukoum/dummydb/
+git clone https://github.com/sumanbiswas/Extendify/dummydb/
 ```
 
 **2. Open the folder:**

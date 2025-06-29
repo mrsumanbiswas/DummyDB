@@ -20,7 +20,11 @@ export const queryDatabase = tool({
       });
     } catch (error) {
       console.error("Error executing query:", error);
-      throw new Error(String(error));
+      return JSON.stringify({
+        query: query,
+        result: ['Database may not have required data.'], // returns an array of rows
+      });
+      //throw new Error(String(error));
     }
   },
 });
