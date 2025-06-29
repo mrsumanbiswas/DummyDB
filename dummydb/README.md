@@ -5,8 +5,6 @@ DUMMYDB - Hackathon AI HEXAFALLS 2025
 ## About this project
 ****DummyDB is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic’s Claude API, this project focuses on simplicity, speed, and user-friendly design. Just ask a question like *“Who were my top customers last month?”* and DummyDB will generate and execute the SQL query behind the scenes, returning accurate, clear results in real time.
 
-## Demo video
-[![See the demo on YouTube](https://img.youtube.com/vi/iE0RXjdbQsw/0.jpg)](https://youtu.be/)
 
 ## Requisites ⚙️
 To use the web interface, these requisites must be met:
