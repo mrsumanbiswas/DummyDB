@@ -3,7 +3,6 @@
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-// import { Button } from "../ui/button"  <-- We no longer need a Button here for "Add Database" 
 import { Plus } from "lucide-react"
 import { AddDatabaseDialog } from "@/components/chat/ConnectDialog"
 
@@ -29,13 +28,13 @@ const Header = () => {
 						<div className="flex items-center space-x-4">
 							<Image
 								src="/blue_logo.svg"
-								alt="datai Logo"
+								alt="DummyDB Logo"
 								width={32}
 								height={32}
 								className="w-6 h-6"
 							/>
 							<h1 className="text-sm font-bold text-foreground">
-								DatAI <span className="text-muted-foreground font-light ml-2">Tinkerers</span>
+								DummyDB <span className="text-muted-foreground font-light ml-2">Tinkerers</span>
 							</h1>
 						</div>
 					</a>
